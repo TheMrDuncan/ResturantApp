@@ -4,12 +4,15 @@ final class MenuService: ObservableObject {
     
     static let shared = MenuService()
     static let urlString = "https://burgertory-menu-api.herokuapp.com/list"
+    static let imageUrl = ""
+    @Published var menu: [Menu]
+    
     
     init() {
-        
+        self.menu = []
     }
     
-    public static func getMenuData() async  -> [Menu] {
+    @MainActor public static func getMenuData() async  -> [Menu] {
         
         guard let url = URL(string: urlString) else {
             return []
@@ -26,12 +29,16 @@ final class MenuService: ObservableObject {
             }
             switch response.statusCode  {
             case 200..<300:
+                
                 guard let apiResponse = try? JSONDecoder().decode([Menu].self, from: data) else {
+                    // Save new or update existing JSON menu file for use when off line
+                    
                     print ("Error decoding data")
                     return []
                 }
                 return apiResponse
             default:
+                // TODO: Check local file system for menu data.  If available, return locally saved version
                 print("Unknown error has occurred while fetching data from the server")
                 return []
             }

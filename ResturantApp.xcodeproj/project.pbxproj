@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29053FED2912290D0092AE93 /* GlowBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29053FEC2912290D0092AE93 /* GlowBorder.swift */; };
+		29053FEF2912FD5D0092AE93 /* MenuItemRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29053FEE2912FD5D0092AE93 /* MenuItemRatingView.swift */; };
+		29053FF1291304D60092AE93 /* MenuItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29053FF0291304D60092AE93 /* MenuItemCardView.swift */; };
+		2926802C29136A9B0030F3E4 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926802B29136A9B0030F3E4 /* CartView.swift */; };
+		2926802E29136AE10030F3E4 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926802D29136AE00030F3E4 /* CartItem.swift */; };
+		29DABA50290E3C36002C04B2 /* MenuItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DABA4F290E3C36002C04B2 /* MenuItemDetailView.swift */; };
 		29F86A572904A2B2009F4622 /* ResturantAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A562904A2B2009F4622 /* ResturantAppApp.swift */; };
 		29F86A592904A2B2009F4622 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A582904A2B2009F4622 /* ContentView.swift */; };
 		29F86A5B2904A2B2009F4622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F86A5A2904A2B2009F4622 /* Assets.xcassets */; };
@@ -14,6 +20,9 @@
 		29F86A682904A2B3009F4622 /* ResturantAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A672904A2B3009F4622 /* ResturantAppTests.swift */; };
 		29F86A722904A2B3009F4622 /* ResturantAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A712904A2B3009F4622 /* ResturantAppUITests.swift */; };
 		29F86A742904A2B3009F4622 /* ResturantAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A732904A2B3009F4622 /* ResturantAppUITestsLaunchTests.swift */; };
+		29F86A822904A2D6009F4622 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A812904A2D6009F4622 /* Menu.swift */; };
+		29F86A842904D09F009F4622 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A832904D09F009F4622 /* MenuService.swift */; };
+		29F86A8829054C33009F4622 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F86A8729054C33009F4622 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29053FEC2912290D0092AE93 /* GlowBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowBorder.swift; sourceTree = "<group>"; };
+		29053FEE2912FD5D0092AE93 /* MenuItemRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemRatingView.swift; sourceTree = "<group>"; };
+		29053FF0291304D60092AE93 /* MenuItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCardView.swift; sourceTree = "<group>"; };
+		2926802B29136A9B0030F3E4 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		2926802D29136AE00030F3E4 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		29DAB146290A333C002C04B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		29DABA4F290E3C36002C04B2 /* MenuItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailView.swift; sourceTree = "<group>"; };
 		29F86A532904A2B2009F4622 /* ResturantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResturantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F86A562904A2B2009F4622 /* ResturantAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantAppApp.swift; sourceTree = "<group>"; };
 		29F86A582904A2B2009F4622 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,9 @@
 		29F86A6D2904A2B3009F4622 /* ResturantAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResturantAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F86A712904A2B3009F4622 /* ResturantAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantAppUITests.swift; sourceTree = "<group>"; };
 		29F86A732904A2B3009F4622 /* ResturantAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29F86A812904A2D6009F4622 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		29F86A832904D09F009F4622 /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
+		29F86A8729054C33009F4622 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29053FEB2912289E0092AE93 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29053FEC2912290D0092AE93 /* GlowBorder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		29F86A4A2904A2B2009F4622 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +121,11 @@
 		29F86A552904A2B2009F4622 /* ResturantApp */ = {
 			isa = PBXGroup;
 			children = (
-				29F86A562904A2B2009F4622 /* ResturantAppApp.swift */,
-				29F86A582904A2B2009F4622 /* ContentView.swift */,
-				29F86A5A2904A2B2009F4622 /* Assets.xcassets */,
+				29053FEB2912289E0092AE93 /* Extensions */,
+				29DAB146290A333C002C04B2 /* Info.plist */,
+				29F86A802904A2C4009F4622 /* Models */,
+				29F86A8629054BC6009F4622 /* Views */,
+				29F86A8529054BA2009F4622 /* App */,
 				29F86A5C2904A2B2009F4622 /* Preview Content */,
 			);
 			path = ResturantApp;
@@ -125,6 +154,38 @@
 				29F86A732904A2B3009F4622 /* ResturantAppUITestsLaunchTests.swift */,
 			);
 			path = ResturantAppUITests;
+			sourceTree = "<group>";
+		};
+		29F86A802904A2C4009F4622 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29F86A812904A2D6009F4622 /* Menu.swift */,
+				29F86A832904D09F009F4622 /* MenuService.swift */,
+				2926802D29136AE00030F3E4 /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29F86A8529054BA2009F4622 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				29F86A562904A2B2009F4622 /* ResturantAppApp.swift */,
+				29F86A5A2904A2B2009F4622 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		29F86A8629054BC6009F4622 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29F86A582904A2B2009F4622 /* ContentView.swift */,
+				29F86A8729054C33009F4622 /* OnboardingView.swift */,
+				29DABA4F290E3C36002C04B2 /* MenuItemDetailView.swift */,
+				29053FEE2912FD5D0092AE93 /* MenuItemRatingView.swift */,
+				29053FF0291304D60092AE93 /* MenuItemCardView.swift */,
+				2926802B29136A9B0030F3E4 /* CartView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2926802C29136A9B0030F3E4 /* CartView.swift in Sources */,
+				29DABA50290E3C36002C04B2 /* MenuItemDetailView.swift in Sources */,
+				2926802E29136AE10030F3E4 /* CartItem.swift in Sources */,
+				29F86A822904A2D6009F4622 /* Menu.swift in Sources */,
 				29F86A592904A2B2009F4622 /* ContentView.swift in Sources */,
 				29F86A572904A2B2009F4622 /* ResturantAppApp.swift in Sources */,
+				29F86A8829054C33009F4622 /* OnboardingView.swift in Sources */,
+				29F86A842904D09F009F4622 /* MenuService.swift in Sources */,
+				29053FF1291304D60092AE93 /* MenuItemCardView.swift in Sources */,
+				29053FED2912290D0092AE93 /* GlowBorder.swift in Sources */,
+				29053FEF2912FD5D0092AE93 /* MenuItemRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +490,12 @@
 				DEVELOPMENT_TEAM = 8YTY74A5HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ResturantApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +520,12 @@
 				DEVELOPMENT_TEAM = 8YTY74A5HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ResturantApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

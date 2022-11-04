@@ -7,14 +7,26 @@
 
 import SwiftUI
 
-struct MenuItemRatingView: View {
+struct RatingView: View {
+    
+    var rating: Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      HStack(alignment: .center, spacing: 5) {
+          if(rating > 0){
+            ForEach(1...(rating), id: \.self) { _ in
+              Image(systemName: "star.fill")
+                .font(.footnote)
+                .foregroundColor(Color.yellow)
+            }
+          }
+      }
     }
 }
 
-struct MenuItemRatingView_Previews: PreviewProvider {
+struct RatingView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuItemRatingView()
+        RatingView(rating: 10)
+            .previewLayout(.fixed(width: 320, height: 60))
     }
 }
